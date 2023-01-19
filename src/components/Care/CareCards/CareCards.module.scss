@@ -1,0 +1,30 @@
+@import "../../../scss/main";
+
+
+.CareCard {
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 253px;
+  @media (max-width: rem(553)){
+    width: 100%;
+    img {
+      content-visibility: hidden;
+    }
+  }
+  h5 {
+    font: inherit;
+    font-weight: 600;
+    color: $mainColor;
+  }
+  span {
+    padding-top: 10px;
+    display: inline-block;
+  }
+  img {
+    padding-bottom: 10px;
+  }
+}
+.CardContent {
+  padding: 20px 10px 30px 10px;
+}

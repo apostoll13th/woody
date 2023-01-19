@@ -1,0 +1,35 @@
+@import "../../../scss/main";
+
+
+.Desktop ul {
+  display: flex;
+  padding: 0px 10px;
+  flex: 0 0 auto;
+
+  a:hover {
+    color: $colorHover;
+    transition: color 0.5s;
+  }
+  a:focus {
+    color: $colorHover;
+    transition: color 0.5s;
+  }
+  a:active {
+    color: $colorHover;
+    transition: color 0.5s;
+  }
+}
+.Desktop {
+  ul a:first-child {
+    padding-bottom: 10px;
+  }
+  ul a:last-child {
+    padding-bottom: 10px;
+  }
+  ul a {
+    padding-bottom: 4px;
+  }
+  @media (max-width: rem(990)){
+    content-visibility: hidden;
+  }
+}
